@@ -88,7 +88,7 @@ public class jenBot implements IBot {
                     board[startX+1][startY+1] == board[startX+2][startY])
                 return true;
 
-        return false;
+        return true;
     }
 
     @Override
